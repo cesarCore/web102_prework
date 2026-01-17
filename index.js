@@ -179,8 +179,7 @@ const firstGameElement = document.createElement("p");
 firstGameElement.innerHTML = `${firstGame.name}`;
 firstGameContainer.appendChild(firstGameElement);
 
+// do the same for the runner up item
 const secondGameElement = document.createElement("p");
 secondGameElement.innerHTML = `${secondGame.name}`;
 secondGameContainer.appendChild(secondGameElement);
-
-// do the same for the runner up item
